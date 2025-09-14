@@ -52,6 +52,15 @@ a:active
 main{
     margin-top: 80px;
 }
+.project {
+    background-color: green;
+}
+.media {
+        background-color: white;
+}
+.skill {
+        background-color: green;
+}
 @media (min-width:45em) {
     nav
         {
