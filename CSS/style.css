@@ -8,3 +8,47 @@ header {
     left: 0;
     width: 100%;
 }
+/* Navigation */
+nav
+    {
+    text-align: center;
+    font-weight: bold;
+    }
+
+nav ul
+    {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    font-size: 1.2em;
+    }
+nav li
+    {
+  
+    border-bottom: 1px solid 
+    }
+nav a
+    {
+    text-decoration:none;
+    padding-right: 10px;   
+    }
+a:link
+    {
+    color:#248f24;    
+    }
+a:visited
+    {
+    color:#33cc33;    
+    }
+a:hover
+    {
+    color:#ffb005;    
+    }
+a:active
+    {
+    color:#FFF;   
+    }
+/* Main */
+main{
+    margin-top: 80px;
+}
