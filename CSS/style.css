@@ -55,12 +55,15 @@ main{
 }
 .project {
     background-color: green;
+    padding: 10em;
 }
 .media {
-        background-color: white;
+    background-color: white;
+    padding: 10em;
 }
 .skill {
-        background-color: green;
+    background-color: green;
+    padding: 10em;
 }
 @media (min-width:45em) {
     nav
