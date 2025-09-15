@@ -5,3 +5,9 @@ $("#Projects a").hover(function() {
 }, function() {
   $(this).removeClass("hoverTime");
 });
+
+$("#Skills p").hover(function() {
+  $(this).addClass("hoverTimeTwo");
+}, function() {
+  $(this).removeClass("hoverTimeTwo");
+});
