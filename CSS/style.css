@@ -34,7 +34,7 @@ nav a
     }
 a:link
     {
-    color:#248f24;    
+    color:white;    
     }
 a:visited
     {
@@ -42,7 +42,7 @@ a:visited
     }
 a:hover
     {
-    color:#ffb005;    
+    color: white;    
     }
 a:active
     {
@@ -64,7 +64,7 @@ main{
 @media (min-width:45em) {
     nav
         {
-        background-color: #ffe6cc;
+        background-color: green;
         padding: 1em;   
         }
     nav ul 
