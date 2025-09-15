@@ -51,6 +51,7 @@ a:active
 /* Main */
 main{
     margin-top: 80px;
+    margin-left: 10px;
 }
 .project {
     background-color: green;
