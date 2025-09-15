@@ -65,6 +65,9 @@ main{
     background-color: green;
     padding: 3em;
 }
+.hoverTime {
+    background-color: gold;
+}
 @media (min-width:45em) {
     nav
         {
