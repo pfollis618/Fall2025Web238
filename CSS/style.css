@@ -68,6 +68,9 @@ main{
 .hoverTime {
     background-color: black;
 }
+.hoverTimeTwo {
+    background-color: white;
+}
 @media (min-width:45em) {
     nav
         {
