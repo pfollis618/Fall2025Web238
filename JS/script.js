@@ -1,1 +1,7 @@
 $("header nav li:last").css({border: "4px solid #33cc33"});
+
+$("#Projects a").hover(function() {
+  $(this).addClass("hoverTime");
+}, function() {
+  $(this).removeClass("hoverTime");
+});
