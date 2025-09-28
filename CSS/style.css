@@ -50,6 +50,12 @@ a:active
     color:#FFF;   
     }
 /* Main */
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
 main{
     margin-top: 80px;
     margin-left: 10px;
