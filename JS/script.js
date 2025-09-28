@@ -24,6 +24,6 @@ $("#Skills li").hover(function() {
 //  }), 5000
 //});
 
-$("#Skills li").hover(function(){
-  $("degrees").fadeIn()
-})
+//$("#Skills li").hover(function(){
+//  $("degrees").fadeIn()
+//})
