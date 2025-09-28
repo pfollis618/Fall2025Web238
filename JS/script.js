@@ -30,8 +30,8 @@ $("#Skills li").hover(function() {
 //  });
 //})
 
-$(document).ready(function(){
-  $("#images").hover(function(){
-    $("img").fadeOut(5000);
-  });
-})
+//$(document).ready(function(){
+//  $("#images").hover(function(){
+//    $("img").fadeOut(5000);
+//  });
+//})
