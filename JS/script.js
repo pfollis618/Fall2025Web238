@@ -11,3 +11,9 @@ $("#Skills p").hover(function() {
 }, function() {
   $(this).removeClass("hoverTimeTwo");
 });
+
+$("#Skills li").hover(function() {
+  $(this).addClass("hoverTimeTwo");
+}, function() {
+  $(this).removeClass("hoverTimeTwo");
+});
