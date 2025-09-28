@@ -34,7 +34,7 @@ $(document).ready(function(){
   $("img").fadeOut();
 });
 $(document).ready(function(){
-  $("#images").hover(function(){
+  $(".button").click(function(){
     $("img").fadeIn(5000);
    });
 });
