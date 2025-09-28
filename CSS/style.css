@@ -57,6 +57,14 @@ main{
     background-color: green;
     padding: 3em;
 }
+.websites {
+    background-color: white;
+    color: black;
+    max-width: 30%;
+    text-align: center;
+    border: groove black;
+    
+}
 .media {
     background-color: white;
     padding: 3em;
