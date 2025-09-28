@@ -17,3 +17,13 @@ $("#Skills li").hover(function() {
 }, function() {
   $(this).removeClass("hoverTimeTwo");
 });
+
+$("#Skills h3").hover(function() {
+  $(this).animate({
+    textAlign = "center"
+  }), 5000
+});
+
+$("#Skills li").hover(function(){
+  $("degrees").fadeIn()
+})
