@@ -84,6 +84,22 @@ img {
     background-color: white;
     padding: 3em;
 }
+.button {
+    margin: 2em;
+    padding: 1em;
+    border: 0;
+    border-radius: .5em;
+    font-size: 1rem;
+    color: white;
+    background-color: #70db70;
+    box-shadow: 0 .4em #29a329;
+    text-shadow: 1px 1px #29a329;
+}
+.button:active{
+    background-color: #47d147;
+    transform: translateY(.1em);
+    box-shadow: 0 .3em #29a329;
+}
 .skill {
     background-color: green;
     padding: 3em;
