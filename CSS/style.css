@@ -62,6 +62,7 @@ main{
 }
 img {
     max-width: 45%;
+    border: solid, black;
 }
 .project {
     background-color: green;
