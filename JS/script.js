@@ -1,4 +1,4 @@
-e$("header nav li:last").css({border: "4px solid #33cc33"});
+$("header nav li:last").css({border: "4px solid #33cc33"});
 
 $("#Projects section").hover(function() {
   $(this).addClass("hoverTime");
