@@ -12,12 +12,12 @@ $("#Skills p").hover(function() {
   $(this).removeClass("hoverTimeTwo");
 });
 
-//$("#Skills li").hover(function() {
-//  $(this).addClass("hoverTimeTwo");
-//}, function() {
-//  $(this).removeClass("hoverTimeTwo");
-//});
-//
+$("#Skills li").hover(function() {
+  $(this).addClass("hoverTimeTwo");
+}, function() {
+  $(this).removeClass("hoverTimeTwo");
+});
+
 //$("#Skills h3").hover(function() {
  // $(this).animate({
  //   textAlign = "center"
