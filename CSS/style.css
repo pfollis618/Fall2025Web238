@@ -68,6 +68,13 @@ img {
     background-color: green;
     padding: 3em;
 }
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-evenly;
+    align-items: center;
+}
 .websites {
     background-color: white;
     color: black;
