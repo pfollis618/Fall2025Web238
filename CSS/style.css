@@ -72,7 +72,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-content: space-evenly;
+    align-content: space-around;
     align-items: center;
 }
 .websites {
