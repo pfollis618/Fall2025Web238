@@ -81,7 +81,9 @@ img {
     max-width: 30%;
     text-align: center;
     border: groove black;
-    padding: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    min-width: 20%;
 }
 .websites a {
     text-decoration:none;
