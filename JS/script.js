@@ -29,7 +29,8 @@ $("#Skills li").hover(function() {
 //    $(".degree").fadeOut(5000);
 //  });
 //})
-//
+
+// Button & Fading code
 //$(document).ready(function(){
 //  $("img").fadeOut();
 //});
@@ -43,3 +44,50 @@ $(document).ready(function(){
     $("img").fadeOut(1000);
    });
 });
+
+// light box code
+$('a.lightbox').click(function(e){
+  //hide scrollbars
+  $('body').css('overflow-y', 'hidden');
+
+  $('<div id="overflow"></div>')
+    .css('top', $(document).scrollTop())
+    .css('opacity', '0')
+    .animate({'opacity': '0.5'}, 'slow')
+    .appendTo('body');
+
+  $('<div id="lightbox"></div>')
+    .hide()
+    .appendTo('body');
+
+  $('<img>')
+    .attr('src', $(this).attr('href'))
+    .load(function() {
+      positionLightboxImage();
+    })
+    .click(function() {
+      removeLightbox();
+    })
+    .appendTo('#lightbox');
+
+  return false;
+})
+
+function positionLightboxImage() {
+  var top = ($(window).height() - $('#lightbox').height()) /2;
+  var left = ($(window).width() - $('#lightbox').width()) /2;
+  $('#lightbox')
+    .css({
+      'top': top + $(document).scrollTop(),
+      'left': left
+    })
+      .fadeIn();
+}
+
+function removeLightbpx() {
+  $('#overlay, #lightbox')
+    .fadeOut('slow', function() {
+      $(this).remove();
+      $('body').css('overflow-y', 'auto');
+    });
+}
