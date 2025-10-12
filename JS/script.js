@@ -35,11 +35,11 @@ $("#Skills li").hover(function() {
 //});
 $(document).ready(function(){
   $(".button").click(function(){
-    $("img").fadeIn(2000);
+    $("img").fadeIn(1000);
    });
 });
 $(document).ready(function(){
   $(".buttonOut").click(function(){
-    $("img").fadeOut(2000);
+    $("img").fadeOut(1000);
    });
 });
