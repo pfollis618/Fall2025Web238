@@ -110,6 +110,22 @@ img {
     transform: translateY(.1em);
     box-shadow: 0 .3em #29a329;
 }
+.buttonOut {
+    margin: 2em;
+    padding: 1em;
+    border: 0;
+    border-radius: .5em;
+    font-size: 1rem;
+    color: white;
+    background-color: #ff4d4d;
+    box-shadow: 0 .4em #b30000;
+    text-shadow: 1px 1px #b30000;
+}
+.buttonOut:active {
+    background-color: #ff1a1a;
+    transform: translateY(.1em);
+    box-shadow: 0 .3em #b30000;
+}
 .skill {
     background-color: green;
     padding: 3em;
