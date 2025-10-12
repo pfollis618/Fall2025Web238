@@ -86,7 +86,7 @@ img {
     margin-top: 1em;
     margin-bottom: 1em;
     min-width: 20%;
-}
+} 
 .websites a {
     text-decoration:none;
 }
@@ -94,6 +94,7 @@ img {
     background-color: white;
     padding: 3em;
 }
+/* button code */
 .button {
     margin: 2em;
     padding: 1em;
@@ -126,6 +127,19 @@ img {
     transform: translateY(.1em);
     box-shadow: 0 .3em #b30000;
 }
+/*Light box code*/
+#overlay {
+    position:fixed;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background:black no-repeat scroll center center;
+}
+#lightbox {
+    position: fixed;
+}
+
 .skill {
     background-color: green;
     padding: 3em;
