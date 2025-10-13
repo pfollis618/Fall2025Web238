@@ -62,7 +62,7 @@ $('img.lightbox').click(function(e){
 
   $('<img>')
     .attr('src', $(this).attr('src'))
-    .load(function() {
+    .on('load',function() {
       positionLightboxImage();
     })
     .click(function() {
@@ -71,7 +71,7 @@ $('img.lightbox').click(function(e){
     .appendTo('#lightbox');
 
   return false;
-})
+}
 
 function positionLightboxImage() {
   var top = ($(window).height() - $('#lightbox').height()) /2;
@@ -91,4 +91,4 @@ function removeLightbox() {
       $('body').css('overflow-y', 'auto');
     });
 }
-
+)
