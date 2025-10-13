@@ -46,6 +46,7 @@ $(document).ready(function(){
 });
 
 // light box code
+$(document).ready(
 $('img.lightbox').click(function(e){
   //hide scrollbars
   $('body').css('overflow-y', 'hidden');
@@ -71,7 +72,7 @@ $('img.lightbox').click(function(e){
     .appendTo('#lightbox');
 
   return false;
-}
+})
 
 function positionLightboxImage() {
   var top = ($(window).height() - $('#lightbox').height()) /2;
@@ -90,5 +91,4 @@ function removeLightbox() {
       $(this).remove();
       $('body').css('overflow-y', 'auto');
     });
-}
-)
+})
