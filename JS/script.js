@@ -50,7 +50,7 @@ $('img.lightbox').click(function(e){
   //hide scrollbars
   $('body').css('overflow-y', 'hidden');
 
-  $('<div id="overflow"></div>')
+  $('<div id="overlay"></div>')
     .css('top', $(document).scrollTop())
     .css('opacity', '0')
     .animate({'opacity': '0.5'}, 'slow')
@@ -61,7 +61,7 @@ $('img.lightbox').click(function(e){
     .appendTo('body');
 
   $('<img>')
-    .attr('src', $(this).attr('href'))
+    .attr('src', $(this).attr('src'))
     .load(function() {
       positionLightboxImage();
     })
