@@ -46,7 +46,7 @@ $(document).ready(function(){
 });
 
 // light box code
-$('a.lightbox').click(function(e){
+$('img.lightbox').click(function(e){
   //hide scrollbars
   $('body').css('overflow-y', 'hidden');
 
@@ -84,7 +84,7 @@ function positionLightboxImage() {
       .fadeIn();
 }
 
-function removeLightbpx() {
+function removeLightbox() {
   $('#overlay, #lightbox')
     .fadeOut('slow', function() {
       $(this).remove();
