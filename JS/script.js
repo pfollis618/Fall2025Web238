@@ -49,7 +49,7 @@ $(document).ready(function(){
 $(document).ready(function() {
 $('img.lightbox').click(function(e){
   //hide scrollbars
- // $('body').css('overflow-y','hidden');
+  $('body').css('overflow-y','hidden');
 
   $('<div id="overlay"></div>')
     .css('top', $(document).scrollTop())
