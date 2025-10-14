@@ -49,7 +49,7 @@ $(document).ready(function(){
 $(document).ready(function() {
 $('img.lightbox').click(function(e){
   //hide scrollbars
-  $('body').css('overflow-y', 'hidden');
+  $('body').css('overflow-y','hidden');
 
   $('<div id="overlay"></div>')
     .css('top', $(document).scrollTop())
@@ -78,12 +78,12 @@ $('img.lightbox').click(function(e){
 function positionLightboxImage() {
   var top = ($(window).height() - $('#lightbox').height()) /2;
   var left = ($(window).width() - $('#lightbox').width()) /2;
-  $('#lightbox')
-    .css({
-      'top': top + $(document).scrollTop(),
-      'left': left
-    })
-      .fadeIn();
+  //$('#lightbox')
+    //.css({
+    //  'top': top + $(document).scrollTop(),
+    //  'left': left
+   // })
+   //   .fadeIn();
 }
 
 function removeLightbox() {
