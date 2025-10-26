@@ -146,6 +146,16 @@ img {
       z-index: 1000;
 }
 
+/* Tabs */
+#tab-1{
+    font-size: 18px;
+    }
+.ui-widget-header {
+    background:crimson;
+    border: 2px solid black;
+    }
+
+
 .skill {
     background-color: green;
     padding: 3em;
