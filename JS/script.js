@@ -95,8 +95,3 @@ function removeLightbox() {
 }
 
 // Media Tabs
-$(function() {
-$( "#tab-1" ).tabs({
-event:"mouseover"
-});
-});
