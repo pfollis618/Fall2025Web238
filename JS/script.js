@@ -93,3 +93,10 @@ function removeLightbox() {
    //   $('body').css('overflow-y', 'auto');
     });
 }
+
+// Media Tabs
+$(function() {
+$( "#tab-1" ).tabs({
+event:"mouseover"
+});
+});
