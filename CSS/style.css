@@ -157,6 +157,10 @@ img {
 #tabs:h3 {
     text-align: center;
 }
+#tab-nav{
+    display: flex;
+    
+}
 #tabs a{
     width: 100%;
   padding: 20px 30px;
