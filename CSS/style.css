@@ -157,7 +157,7 @@ img {
 #tabs:h3 {
     text-align: center;
 }
-#tabs:a{
+#tabs a{
     width: 100%;
   padding: 20px 30px;
   background: #e5e5e5;
@@ -167,10 +167,10 @@ img {
   color: #7f7f7f;
   transition: background 0.1s, color 0.1s;
 }
-#tabs:a:hover{
+#tabs a:hover{
     background: #d8d8d8;
 }
-#tabs:a:active{
+#tabs a:active{
     background: #ccc;
 }
 
