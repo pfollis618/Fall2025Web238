@@ -154,6 +154,9 @@ img {
   background: #e5e5e5;
   box-shadow: 0 48px 80px -32px rgba(0,0,0,0.3);
 }
+#tabs:h3 {
+    text-align: center;
+}
 #tabs:a{
     width: 100%;
   padding: 20px 30px;
