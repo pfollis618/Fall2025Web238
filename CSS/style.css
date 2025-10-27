@@ -220,6 +220,10 @@ img {
         border-style: solid;
         padding: 2em;
     }
+    /* tabs */
+    #tabs:a {
+        width: auto;
+    }
 }
 @media (min-width:65em) {
     img {
