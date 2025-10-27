@@ -95,3 +95,14 @@ function removeLightbox() {
 }
 
 // Media Tabs
+$('#tabs div:not(:first)').hide();
+
+$('#tab-nav li').hover(function(event) {
+  event.preventDefault();
+  $('#tabs div').hide();
+  $('#tab-nav .current').removeClass("current");
+  $(this).addClass('current');
+
+  var hovered = $(this).find('a:first').attr('href');
+  $('#tabs ' + hovered).fadeIn('fast');
+}).eq(0).addClass('current');
