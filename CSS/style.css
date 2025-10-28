@@ -158,8 +158,10 @@ img {
     text-align: center;
 }
 #tab-nav{
-    display: flex;
-    
+    display: flex;   
+}
+#tab-nav ul{
+    list-style-type: none;
 }
 #tabs a{
     width: 100%;
