@@ -175,6 +175,9 @@ img {
   transition: background 0.1s, color 0.1s;
 text-decoration:none;
 }
+#tabs a:link{
+    background: #ddd;
+}
 #tabs a:hover{
     background: #d8d8d8;
 }
