@@ -159,6 +159,7 @@ img {
 }
 #tab-nav{
     display: flex;   
+    font-weight: bold;
 }
 #tab-nav ul{
     list-style-type: none;
