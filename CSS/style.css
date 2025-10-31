@@ -94,6 +94,9 @@ img {
     background-color: white;
     padding: 3em;
 }
+#video {
+    margin-bottom: 2em;
+}
 /* button code */
 .button {
     margin: 2em;
