@@ -93,9 +93,10 @@ img {
 .media {
     background-color: white;
     padding: 3em;
+    margin: 1em;
 }
 #video {
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 /* button code */
 .button {
