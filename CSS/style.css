@@ -164,6 +164,7 @@ img {
 #tab-nav{
     display: flex;   
     font-weight: bold;
+    list-style-type: none;
 }
 #tab-nav ul{
     list-style-type: none;
