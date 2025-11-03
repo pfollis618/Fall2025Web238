@@ -158,7 +158,7 @@ img {
   background: #e5e5e5;
   box-shadow: 0 48px 80px -32px rgba(0,0,0,0.3);
 }
-#tabs:h3 {
+.tabs:h3 {
     text-align: center;
 }
 #tab-nav{
@@ -169,7 +169,7 @@ img {
 #tab-nav ul{
     list-style-type: none;
 }
-#tabs a{
+.tabs a{
     width: 100%;
   padding: 20px 30px;
   background: #e5e5e5;
@@ -180,15 +180,15 @@ img {
   transition: background 0.1s, color 0.1s;
 text-decoration:none;
 }
-#tabs a:link{
+.tabs a:link{
     background: #ddd;
     border: 3px green;
 }
-#tabs a:hover{
+.tabs a:hover{
     background: #d8d8d8;
     border: 3px blue;
 }
-#tabs a:active{
+.tabs a:active{
     background: #ccc;
     border: 3px red;
 }
