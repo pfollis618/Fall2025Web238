@@ -26,7 +26,7 @@ nav ul
 nav li
     {
   
-    border-bottom: 1px solid 
+    border-bottom: 1px solid black;
     }
 nav a
     {
@@ -62,7 +62,7 @@ main{
 }
 img {
     max-width: 45%;
-    border: solid, black;
+    border: solid black;
 }
 .project {
     background-color: green;
@@ -139,7 +139,7 @@ img {
     left:0;
     height:100%;
     width:100%;
-    background-color: rgba(0,0,0,7);
+    background-color: rgba(0,0,0,.7);
     z-index: 999;
 }
 #lightbox {
@@ -158,7 +158,7 @@ img {
   background: #e5e5e5;
   box-shadow: 0 48px 80px -32px rgba(0,0,0,0.3);
 }
-.tabs:h3 {
+.tabs h3 {
     text-align: center;
 }
 #tab-nav{
@@ -243,7 +243,7 @@ text-decoration:none;
         padding: 2em;
     }
     /* tabs */
-    #tabs:a {
+    #tabs a {
         width: auto;
     }
 }
