@@ -195,7 +195,7 @@ img {
 }
 .tabs a{
     width: 100%;
-  padding: 20px 30px;
+  padding: 10px 15px;
   background: #e5e5e5;
   cursor: pointer;
   font-weight: bold;
@@ -272,6 +272,7 @@ text-decoration:none;
     /* tabs */
     #tabs a {
         width: auto;
+        padding: 20px 30px;
         font-size: 18px;
     }
 }
