@@ -1,1 +1,51 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+header {
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+}
+/* Navigation */
+nav
+    {
+    text-align: center;
+    font-weight: bold;
+    background: black;
+    }
 
+nav ul
+    {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    font-size: 1.2em;
+    }
+nav li
+    {
+  
+    border-bottom: 1px solid black;
+    }
+nav a
+    {
+    text-decoration:none;
+    padding-right: 10px;   
+    }
+a:link
+    {
+    color: #33cc33;    
+    }
+a:visited
+    {
+    color:#0000ff;    
+    }
+a:hover
+    {
+    color: white;    
+    }
+a:active
+    {
+    color:#FFF;   
+    }
