@@ -1,6 +1,7 @@
 html{
     --blue: #0000ff;
     --light-blue: #99ccff;
+    --white: #FFF;
     color: var(--text-color);
 }
 body {
@@ -61,3 +62,7 @@ h1{
 }
 main {
     margin-top: 80px;
+}
+.container{
+    background-color: var(--white);
+}
