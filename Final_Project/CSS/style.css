@@ -1,6 +1,10 @@
+html{
+    --blue: #0000ff;
+}
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: black;
+    background-color: var(--blue);
 }
 header {
     position: fixed;
