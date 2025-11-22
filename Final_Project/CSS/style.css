@@ -1,5 +1,7 @@
 html{
     --blue: #0000ff;
+    --light-blue: #99ccff;
+    color: var(--text-color);
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -17,7 +19,7 @@ nav
     {
     text-align: center;
     font-weight: bold;
-    background: black;
+    background-color: var(--light-blue);
     }
 
 nav ul
