@@ -66,6 +66,8 @@ img {
 }
 .project {
     background-color: green;
+    padding-top: 3em;
+    padding-bottom: 3em;
     padding: 1em;
 }
 .container {
@@ -248,6 +250,8 @@ text-decoration:none;
         } 
     .project {
         padding: 2px
+        padding-top: 3em;
+        padding-bottom: 3em;
     }
     .skill-grid {
         display: grid;
