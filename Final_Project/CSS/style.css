@@ -66,4 +66,5 @@ main {
 }
 .container{
     background-color: var(--white);
+    border: 4px solid black;
 }
