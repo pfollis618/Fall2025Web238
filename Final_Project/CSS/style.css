@@ -1,5 +1,6 @@
 html{
     --blue: #000080;
+    --black: #000;
     --maroon: #800000;
     --light-blue: #99ccff;
     --white: #FFF;
@@ -21,7 +22,7 @@ nav
     {
     text-align: center;
     font-weight: bold;
-    background-color: var(--light-blue);
+    background-color: var(--black);
     }
 
 nav ul
