@@ -91,6 +91,7 @@ img{
     background-color: var(--maroon);
     color: var(--white);
     font-weight: bold;
+    max-width: 25%;
 }
 @media (min-width:45em) {
     body {
