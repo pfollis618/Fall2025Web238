@@ -129,7 +129,7 @@ img{
         max-width: 18%;
     }
     .headingHover > h1 {
-        font-size: 1.5em;
+        font-size: 2em;
     }
 }
 @media (min-width:65em) {
