@@ -3,3 +3,9 @@ $("#medieval li").hover(function() {
 }, function() {
   $(this).removeClass("hover");
 });
+
+$("#heading section").hover(function() {
+  $(this).addClass("headingHover");
+}, function() {
+  $(this).removeClass("headingHover");
+});
