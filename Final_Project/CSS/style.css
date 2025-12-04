@@ -73,7 +73,7 @@ main {
 }
 img{
     display: block;
-    max-width: 80%;
+    max-width: 95%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -115,7 +115,10 @@ img{
         border-bottom: none;
         } 
     main{
-        max-width:85%
+        max-width:85%;
+    }
+    img{
+        max-width: 80%;
     }
     .hover{
         max-width: 18%;
