@@ -93,6 +93,11 @@ img{
     font-weight: bold;
     max-width: 30%;
 }
+.headingHover{
+    background-color: var(--maroon);
+    color: var(--white);
+    font-weight: bold;
+}
 @media (min-width:45em) {
     body {
       background-image: linear-gradient(90deg, var(--maroon), var(--white));
@@ -122,6 +127,9 @@ img{
     }
     .hover{
         max-width: 18%;
+    }
+    .headingHover > h1 {
+        font-size: 1.5em;
     }
 }
 @media (min-width:65em) {
