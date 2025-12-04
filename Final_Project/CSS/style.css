@@ -44,11 +44,11 @@ nav a
     }
 a:link
     {
-    color: black;    
+    color: var(--maroon);    
     }
 a:visited
     {
-    color:#00ff00;    
+    color: var(--white);    
     }
 a:hover
     {
