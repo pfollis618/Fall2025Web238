@@ -75,6 +75,9 @@ main {
     padding: 3em;
     margin-bottom: 25px;
 }
+.centered{
+    text-align:center;
+}
 @media (min-width:45em) {
     body {
       background-image: linear-gradient(90deg, var(--maroon), var(--white));
