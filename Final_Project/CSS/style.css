@@ -68,6 +68,9 @@ main {
     margin-right:auto;
     max-width: 95%;
 }
+img{
+    max-width: 80%;
+}
 .container{
     background-color: var(--white);
     border: 4px solid black;
