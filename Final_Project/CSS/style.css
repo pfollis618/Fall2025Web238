@@ -87,6 +87,9 @@ img{
 .centered{
     text-align:center;
 }
+.hover{
+    background-color: var(--maroon);
+}
 @media (min-width:45em) {
     body {
       background-image: linear-gradient(90deg, var(--maroon), var(--white));
