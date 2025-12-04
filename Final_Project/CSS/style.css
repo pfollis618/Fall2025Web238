@@ -73,7 +73,7 @@ main {
 }
 img{
     display: block;
-    max-width: 50%;
+    max-width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -124,6 +124,9 @@ img{
 @media (min-width:65em) {
     main{
         max-width:80%
+    }
+    img{
+        max-width: 50%;
     }
     .hover{
         max-width:8%;
