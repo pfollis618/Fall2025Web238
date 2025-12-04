@@ -89,6 +89,7 @@ img{
 }
 .hover{
     background-color: var(--maroon);
+    color: var(--white);
     font-weight: bold;
 }
 @media (min-width:45em) {
