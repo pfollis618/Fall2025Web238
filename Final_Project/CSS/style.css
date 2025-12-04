@@ -2,6 +2,7 @@ html{
     --blue: #000080;
     --black: #000;
     --maroon: #800000;
+    --red: #C40000;
     --light-blue: #99ccff;
     --white: #FFF;
     color: var(--text-color);
@@ -54,7 +55,7 @@ a:visited
     }
 a:hover
     {
-    color: white;    
+    color: var(--red);    
     }
 a:active
     {
