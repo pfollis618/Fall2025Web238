@@ -90,6 +90,23 @@ img{
     body {
       background-image: linear-gradient(90deg, var(--maroon), var(--white));
     }
+    nav
+        {
+        padding: 1em;   
+        }
+    nav ul 
+        {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        list-style-type: none;
+        }
+
+    nav li 
+        {
+        border-bottom: none;
+        } 
     main{
         max-width:85%
     }
