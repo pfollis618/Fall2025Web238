@@ -91,7 +91,7 @@ img{
     background-color: var(--maroon);
     color: var(--white);
     font-weight: bold;
-    max-width: 25%;
+    max-width: 30%;
 }
 @media (min-width:45em) {
     body {
@@ -117,9 +117,15 @@ img{
     main{
         max-width:85%
     }
+    .hover{
+        max-width: 23%;
+    }
 }
 @media (min-width:65em) {
     main{
         max-width:80%
+    }
+    .hover{
+        max-width:15%;
     }
 }
