@@ -15,3 +15,9 @@ $("#images img").hover(function() {
 }, function() {
   $(this).removeClass("galleryHover");
 });
+
+$(document).ready(function(){
+  $(".make_her_blue_again").click(function(){
+    $("img").fadeIn(1000);
+   });
+});
