@@ -103,6 +103,9 @@ img{
   flex-wrap: wrap;
   justify-content: flex-start;
 }
+.gallery-flexbox > img {
+    max-width: 45%;
+}
 .galleryHover{
     border: 1px solid var(--maroon);
 }
