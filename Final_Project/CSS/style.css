@@ -113,6 +113,14 @@ img{
   display: none;
 }
 
+#panel ul {
+    list-style-type: none;
+}
+
+#panel li {
+    padding-bottom: 3px;
+}
+
 /* Gallery Code */
 .gallery-flexbox{
     display: flex;
