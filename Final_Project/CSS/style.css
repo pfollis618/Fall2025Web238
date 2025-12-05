@@ -104,7 +104,7 @@ img{
   justify-content: flex-start;
 }
 .gallery-flexbox > img {
-    max-width: 49%;
+    max-width: 45%;
 }
 .galleryHover{
     border: 3px solid var(--maroon);
