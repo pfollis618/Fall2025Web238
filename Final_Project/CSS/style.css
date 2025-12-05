@@ -103,6 +103,9 @@ img{
   flex-wrap: wrap;
   justify-content: flex-start;
 }
+.galleryHover{
+    border: 1px solid var(--maroon);
+}
 @media (min-width:45em) {
     body {
       background-image: linear-gradient(90deg, var(--maroon), var(--white));
