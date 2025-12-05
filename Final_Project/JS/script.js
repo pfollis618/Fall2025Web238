@@ -10,6 +10,14 @@ $("#heading section").hover(function() {
   $(this).removeClass("headingHover");
 });
 
+//Accordian Code
+$(document).ready(function(){
+  $("#accordian").click(function(){
+    $("#panel").slideToggle("slow");
+  });
+});
+
+//Gallery Code
 $("#images img").hover(function() {
   $(this).addClass("galleryHover");
 }, function() {
