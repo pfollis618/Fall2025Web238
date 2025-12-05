@@ -99,6 +99,20 @@ img{
     font-weight: bold;
 }
 
+/* Accordian */
+#panel, #accordian {
+  padding: 5px;
+  text-align: center;
+  background-color: var(--maroon);
+    color: var(--maroon); 
+  border: solid 1px black;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
+
 /* Gallery Code */
 .gallery-flexbox{
     display: flex;
