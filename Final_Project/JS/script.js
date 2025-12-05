@@ -9,3 +9,9 @@ $("#heading section").hover(function() {
 }, function() {
   $(this).removeClass("headingHover");
 });
+
+$("#gallery img").hover(function() {
+  $(this).addClass("galleryHover");
+}, function() {
+  $(this).removeClass("galleryHover");
+});
