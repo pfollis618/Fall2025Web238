@@ -30,11 +30,11 @@ $(document).ready(function(){
    });
 });
 
-$(document).ready(function(){
-  $(".visible").click(function(){
-    $("#invisible").addClass("gallery-flexbox");
-   });
-});
+//$(document).ready(function(){
+//  $(".visible").click(function(){
+//    $("#invisible").addClass("gallery-flexbox");
+//   });
+//});
 
 $(document).ready(function(){
   $(".visible").click(function(){
