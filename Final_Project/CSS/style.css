@@ -109,6 +109,9 @@ img{
 .galleryHover{
     border: 3px solid var(--maroon);
 }
+#invisible{
+    display:none;
+}
 @media (min-width:45em) {
     body {
       background-image: linear-gradient(90deg, var(--maroon), var(--white));
