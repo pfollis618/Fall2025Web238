@@ -18,6 +18,6 @@ $("#images img").hover(function() {
 
 $(document).ready(function(){
   $(".visible").click(function(){
-    $("img").fadeIn(1000);
+    $("#invisible img").fadeIn(1000);
    });
 });
