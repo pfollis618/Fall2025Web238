@@ -21,3 +21,9 @@ $(document).ready(function(){
     $("#invisible").fadeIn(1000);
    });
 });
+
+$(document).ready(function(){
+  $(".visible").click(function(){
+    $("#invisible").addClass(".gallery-flexbox");
+   });
+});
