@@ -98,6 +98,8 @@ img{
     color: var(--white);
     font-weight: bold;
 }
+
+/* Gallery Code */
 .gallery-flexbox{
     display: flex;
   flex-wrap: wrap;
@@ -111,6 +113,10 @@ img{
 }
 #invisible{
     display: none;
+}
+.visible{
+    color: var(--white)
+    background-color: var(--maroon);
 }
 @media (min-width:45em) {
     body {
