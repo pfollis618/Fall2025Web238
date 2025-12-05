@@ -107,7 +107,7 @@ img{
     max-width: 45%;
 }
 .galleryHover{
-    border: 1px solid var(--maroon);
+    border: 3px solid var(--maroon);
 }
 @media (min-width:45em) {
     body {
