@@ -102,10 +102,13 @@ img{
 /* Accordian */
 #panel, #accordian {
   padding: 5px;
-  text-align: center;
   background-color: var(--maroon);
     color: var(--white); 
   border: solid 1px black;
+}
+
+#accordian {
+    text-align: center;
 }
 
 #panel {
