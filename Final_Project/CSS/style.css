@@ -128,9 +128,9 @@ img{
     .hover{
         max-width: 18%;
     }
-    .headingHover > h1 {
+    /*.headingHover > h1 {
         font-size: 2.5em;
-    }
+    } */
 }
 @media (min-width:65em) {
     main{
