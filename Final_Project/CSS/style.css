@@ -110,7 +110,7 @@ img{
     border: 3px solid var(--maroon);
 }
 #invisible{
-    display:none;
+    visibiliy: hidden;
 }
 @media (min-width:45em) {
     body {
