@@ -17,7 +17,7 @@ $("#images img").hover(function() {
 });
 
 $(document).ready(function(){
-  $(".make_her_blue_again").click(function(){
+  $(".visible").click(function(){
     $("img").fadeIn(1000);
    });
 });
