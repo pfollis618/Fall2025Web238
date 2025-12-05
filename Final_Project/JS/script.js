@@ -35,3 +35,9 @@ $(document).ready(function(){
     $("#invisible").addClass("gallery-flexbox");
    });
 });
+
+$(document).ready(function(){
+  $(".visible").click(function(){
+    $("#button").addClass("hide");
+   });
+});
