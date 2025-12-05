@@ -32,6 +32,6 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $(".visible").click(function(){
-    $("#invisible").addClass(".gallery-flexbox");
+    $("#invisible").addClass("gallery-flexbox");
    });
 });
