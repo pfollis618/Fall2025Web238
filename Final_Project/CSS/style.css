@@ -119,7 +119,7 @@ img{
   flex-wrap: wrap;
   justify-content: flex-start;
 }
-.gallery-flexbox > img {
+.gallery-flexbox img {
     max-width: 45%;
 }
 .galleryHover{
