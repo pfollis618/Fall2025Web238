@@ -115,7 +115,7 @@ img{
     display: none;
 }
 .visible{
-    color: var(--white)
+    color: var(--white);
     background-color: var(--maroon);
 }
 @media (min-width:45em) {
