@@ -10,7 +10,7 @@ $("#heading section").hover(function() {
   $(this).removeClass("headingHover");
 });
 
-$("#gallery img").hover(function() {
+$("#images img").hover(function() {
   $(this).addClass("galleryHover");
 }, function() {
   $(this).removeClass("galleryHover");
