@@ -43,5 +43,5 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-  $("#invisible").hide();
+  $(".invisible").hide();
 });
