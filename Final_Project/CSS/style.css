@@ -132,7 +132,7 @@ img{
   justify-content: flex-start;
 }
 .gallery-flexbox img {
-    max-width: 45%;
+    max-width: 100%;
 }
 .galleryHover{
     border: 3px solid var(--maroon);
@@ -176,6 +176,9 @@ img{
     }
     .hover{
         max-width: 18%;
+    }
+    .gallery-flexbox img {
+        max-width: 45%;
     }
     /*.headingHover > h1 {
         font-size: 2.5em;
