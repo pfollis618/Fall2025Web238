@@ -41,3 +41,7 @@ $(document).ready(function(){
     $("#button").addClass("hide");
    });
 });
+
+$(document).ready(function(){
+  $("#invisible").hide();
+});
