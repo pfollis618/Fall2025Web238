@@ -116,6 +116,7 @@ img{
   display: none;
     background-color: var(--white);
     color: var(--black);
+    border: 12px;
 }
 
 #panel ul {
