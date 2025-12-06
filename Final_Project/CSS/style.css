@@ -132,6 +132,7 @@ img{
     display: flex;
   flex-wrap: wrap;
   justify-content: center;
+    align-content: center;
 }
 .gallery-flexbox img {
     max-width: 100%;
