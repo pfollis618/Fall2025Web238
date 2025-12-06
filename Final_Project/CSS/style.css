@@ -107,15 +107,15 @@ img{
 
 #accordian {
     text-align: center;
-    background-color: var(--white);
-    color: var(--black);
+    background-color: var(--maroon);
+    color: var(--white);
 }
 
 #panel {
   padding: 50px;
   display: none;
-background-color: var(--maroon);
-color: var(--white);
+    background-color: var(--white);
+    color: var(--black);
 }
 
 #panel ul {
