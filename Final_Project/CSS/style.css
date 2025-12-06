@@ -115,6 +115,7 @@ img{
 #panel {
   padding: 50px;
   display: none;
+    font-weight: bold;
 }
 
 #panel ul {
