@@ -101,19 +101,21 @@ img{
 
 /* Accordian */
 #panel, #accordian {
-  padding: 5px;
-  background-color: var(--maroon);
-    color: var(--white); 
-  border: solid 1px black;
+  padding: 5px; 
+  border: solid 5px var(--maroon);
 }
 
 #accordian {
     text-align: center;
+    background-color: var(--white);
+    color: var(--black);
 }
 
 #panel {
   padding: 50px;
   display: none;
+background-color: var(--maroon);
+color: var(--white);
 }
 
 #panel ul {
