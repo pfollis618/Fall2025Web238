@@ -3,6 +3,7 @@ html{
     --black: #000;
     --maroon: #800000;
     --red: #C40000;
+    --visitedred: #B50000;
     --light-blue: #99ccff;
     --white: #FFF;
     color: var(--text-color);
@@ -51,7 +52,7 @@ a:link
     }
 a:visited
     {
-    color: var(--white);    
+    color: var(--visitedred);    
     }
 a:hover
     {
