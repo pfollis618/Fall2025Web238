@@ -94,6 +94,7 @@ img {
 } 
 .websites a {
     text-decoration:none;
+    font-weight: bold;
 }
 .websites img {
     max-width: 20%;
