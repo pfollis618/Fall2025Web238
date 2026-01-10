@@ -95,6 +95,9 @@ img {
 .websites a {
     text-decoration:none;
 }
+.websites img {
+    max-width: 20%;
+}
 .media {
     background-color: white;
     padding: 3em;
