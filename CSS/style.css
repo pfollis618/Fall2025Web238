@@ -95,6 +95,7 @@ img {
     justify-content: space-around;
     align-content: space-around;
     align-items: center;
+    line-height: 50%;
 } 
 .websites a {
     text-decoration:none;
