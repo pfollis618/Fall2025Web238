@@ -98,8 +98,8 @@ img {
     text-align: center;
 }
 .websites img {
-    max-width: 30%;
-    padding: auto;
+    max-width: 25%;
+    padding-right: 1em;
 }
 .media {
     background-color: white;
