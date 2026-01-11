@@ -237,7 +237,9 @@ text-decoration:none;
     background: #ccc;
     border: 3px red;
 }
-
+.tabs iframe {
+    max-width: 90%;
+}
 
 .skill {
     background-color: green;
