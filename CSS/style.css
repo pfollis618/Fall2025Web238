@@ -96,6 +96,7 @@ main{
     justify-content: space-evenly;
     /*align-content: space-evenly;*/
     align-items: center;
+    flex-flow: column;
     /*line-height: 50%;*/
 } 
 .websites a {
@@ -106,7 +107,7 @@ main{
     margin-bottom: auto;*/
 }
 .websites img {
-    max-width: 25%;
+    max-width: 90%;
     border: solid black;
     /*padding-right: 1em;*/
 }
@@ -269,6 +270,12 @@ text-decoration:none;
         padding: 2px;
         padding-top: 3em;
         padding-bottom: 3em;
+    }
+    .websites {
+        flex-flow: row;
+    }
+    .websites img {
+        max-width: 25%;
     }
     .skill-grid {
         display: grid;
