@@ -91,6 +91,10 @@ img {
     margin-top: 1em;
     margin-bottom: 1em;
     min-width: 20%;
+    display: flexbox;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: center;
 } 
 .websites a {
     text-decoration:none;
