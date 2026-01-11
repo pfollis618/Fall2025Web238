@@ -60,7 +60,7 @@ main{
     margin-top: 80px;
    /* margin-left: 10px; */
 }
-img {
+.media img {
     max-width: 95%;
     border: solid black;
     margin-left: auto;
