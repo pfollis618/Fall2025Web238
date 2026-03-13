@@ -61,6 +61,11 @@ main{
    /* margin-left: 10px; */
 }
 
+.bio {
+    margin-right: 2em;
+    margin-left: 2em;
+}
+
 .project {
     background-color: green;
     padding-top: 3em;
