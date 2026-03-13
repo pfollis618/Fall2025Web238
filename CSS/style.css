@@ -263,7 +263,7 @@ text-decoration:none;
 .hoverTimeTwo {
     background-color: #80d4ff;
 }
-.footer {
+#footer {
     margin: 1em;
 }
 @media (min-width:45em) {
@@ -331,7 +331,7 @@ text-decoration:none;
         padding: 20px 30px;
         font-size: 18px;
     }
-    .footer {
+    #footer {
         margin: 2em;
     }
 }
@@ -369,7 +369,7 @@ text-decoration:none;
     .container {
         gap: 20px;
     }
-    .footer {
+    #footer {
         margin: 5em;
     }
 }
