@@ -65,6 +65,8 @@ main{
     margin-right: 20em;
     margin-left: 20em;
     background: #e5e5e5;
+    padding-top: 3em;
+    padding-bottom: 3em;
 }
 
 .project {
