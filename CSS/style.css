@@ -70,6 +70,9 @@ main{
     padding: 1em;
     text-align: center;
 }
+.bio a{
+    text-decoration:none;
+}
 
 .project {
     background-color: green;
