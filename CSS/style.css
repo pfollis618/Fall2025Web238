@@ -263,6 +263,9 @@ text-decoration:none;
 .hoverTimeTwo {
     background-color: #80d4ff;
 }
+.footer {
+    margin: 1em;
+}
 @media (min-width:45em) {
     nav
         {
@@ -328,6 +331,9 @@ text-decoration:none;
         padding: 20px 30px;
         font-size: 18px;
     }
+    .footer {
+        margin: 2em;
+    }
 }
 @media (min-width:65em) {
     .bio {
@@ -362,5 +368,8 @@ text-decoration:none;
     }
     .container {
         gap: 20px;
+    }
+    .footer {
+        margin: 5em;
     }
 }
