@@ -324,6 +324,7 @@ text-decoration:none;
         margin: 2em;
         background-color: white;
         border-style: solid;
+        border-radius: 20px;
         padding: 2em;
     }
     .grid2 {
@@ -331,6 +332,7 @@ text-decoration:none;
         margin: 2em;
         background-color: white;
         border-style: solid;
+        border-radius: 20px;
         padding: 2em;
     }
     .container{
