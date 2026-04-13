@@ -108,7 +108,7 @@ main{
     border-radius: 10px;
     padding-top: 2em;
     padding-bottom: 2em;
-    padding-left: 1em;
+
     /*padding-right: 5em; */
     margin-top: 1em;
     margin-bottom: 1em;
@@ -316,6 +316,7 @@ text-decoration:none;
     .websites {
         flex-flow: row;
         max-width: 30%;
+        padding-left: 1em;
     }
     .websites img {
         max-width: 30%; /* was 25% */
