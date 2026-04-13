@@ -110,6 +110,7 @@ main{
     /*align-content: space-evenly;*/
     align-items: center;
     flex-flow: column;
+    flex-wrap: wrap;
     /*line-height: 50%;*/
 } 
 .websites a {
