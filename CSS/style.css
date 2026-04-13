@@ -124,6 +124,10 @@ main{
     border: solid black;
     /*padding-right: 1em;*/
 }
+.web-info {
+    display: flex;
+    justify-content: space-evenly;
+}
 .media {
     background-color: white;
    /* padding: 3em;
