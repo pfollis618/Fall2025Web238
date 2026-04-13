@@ -93,6 +93,7 @@ main{
     max-width: 30%;
     text-align: center;
     border: groove black;
+    border-radius: 10px;
     padding-top: 2em;
     padding-bottom: 2em;
     /*padding-right: 5em; */
