@@ -2,6 +2,8 @@ html {
     --black: #000;
     --white: #fff;
     --green: green;
+    --link: #33cc33;
+    --visited: #0000ff;
     --highlight: #80d4ff;
     color: var(--text-color);
 }
@@ -20,7 +22,7 @@ nav
     {
     text-align: center;
     font-weight: bold;
-    background: black;
+    background: var(--black);
     }
 
 nav ul
@@ -42,19 +44,19 @@ nav a
     }
 a:link
     {
-    color: #33cc33;    
+    color: var(--link);    
     }
 a:visited
     {
-    color:#0000ff;    
+    color: var(--visited);    
     }
 a:hover
     {
-    color: white;    
+    color: var(--highlight);    
     }
 a:active
     {
-    color:#FFF;   
+    color: var(--white);   
     }
 /* Main */
 h1{
@@ -70,7 +72,7 @@ main{
 
 .bio {
     margin: 1em;
-    background-color: white;
+    background-color: var(--white);
     padding-top: 3em;
     padding-bottom: 3em;
     padding: 1em;
@@ -86,7 +88,7 @@ main{
 }
 
 .project {
-    background-color: green;
+    background-color: var(--green);
     padding-top: 3em;
     padding-bottom: 3em;
     padding: 1em;
@@ -100,8 +102,8 @@ main{
     gap: 3px;
 }
 .websites {
-    background-color: white;
-    color: black;
+    background-color: var(--white);
+    color: var(--black);
     max-width: 42%;
     text-align: center;
     border: groove black;
@@ -137,7 +139,7 @@ main{
     margin: auto;
 }
 .media {
-    background-color: white;
+    background-color: var(--white);
    /* padding: 3em;
     margin: 1em; */
 }
@@ -272,14 +274,14 @@ text-decoration:none;
 }
 
 .skill {
-    background-color: green;
+    background-color: var(--green);
     padding: 3em;
 }
 .hoverTime {
-    background-color: black;
+    background-color: var(--black);
 }
 .hoverTime p{
-    color: white;
+    color: var(--white);
 }
 .hoverTimeTwo {
     background-color: var(--highlight);
@@ -334,7 +336,7 @@ text-decoration:none;
     .grid1 {
         grid-column: 1/2;
         margin: 2em;
-        background-color: white;
+        background-color: var(--white);
         border-style: solid;
         border-radius: 20px;
         padding: 2em;
@@ -342,7 +344,7 @@ text-decoration:none;
     .grid2 {
         grid-column: 2/2;
         margin: 2em;
-        background-color: white;
+        background-color: var(--white);
         border-style: solid;
         border-radius: 20px;
         padding: 2em;
