@@ -90,7 +90,7 @@ main{
 .websites {
     background-color: white;
     color: black;
-    max-width: 30%;
+    max-width: 42%;
     text-align: center;
     border: groove black;
     border-radius: 10px;
@@ -295,6 +295,7 @@ text-decoration:none;
     }
     .websites {
         flex-flow: row;
+        max-width: 30%;
     }
     .websites img {
         max-width: 25%;
