@@ -83,9 +83,6 @@ main{
 .bio a{
     text-decoration:none;
 }
-.bio a hover{
-    color:green;
-}
 
 .project {
     background-color: var(--green);
@@ -232,7 +229,8 @@ main{
   flex-wrap: wrap;
  /* max-width: 700px; */
     max-width: 100%;
-  background: #e5e5e5;
+  /*background: #e5e5e5;*/
+    background-color: var(--green);
   box-shadow: 0 48px 80px -32px rgba(0,0,0,0.3);
     border-radius: 10px;
 }
@@ -251,7 +249,8 @@ main{
 .tabs a{
     width: 100%;
   padding: 10px 15px;
-  background: #e5e5e5;
+  /*background: #e5e5e5;*/
+    background-color: var(--green);
   cursor: pointer;
   font-weight: bold;
   font-size: 12px;
