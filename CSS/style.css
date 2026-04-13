@@ -63,14 +63,19 @@ main{
 
 .bio {
     margin: 1em;
-    background: #e5e5e5;
+    background-color: white;
     padding-top: 3em;
     padding-bottom: 3em;
     padding: 1em;
     text-align: center;
+    border: groove black;
+    border-radius: 35px;
 }
 .bio a{
     text-decoration:none;
+}
+.bio a hover{
+    color:green;
 }
 
 .project {
