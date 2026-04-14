@@ -276,6 +276,11 @@ text-decoration:none;
     max-width: 90%;
 }
 
+.image-container{
+    background-color: white;
+    border: 3px var(--black);
+}
+
 .skill {
     background-color: var(--green);
     padding: 3em;
