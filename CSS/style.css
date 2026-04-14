@@ -252,6 +252,7 @@ main{
   padding: 10px 15px;
   /*background: #e5e5e5;*/
     background: darkgreen;
+    border-radius: 3pt;
   cursor: pointer;
   font-weight: bold;
   font-size: 12px;
