@@ -278,8 +278,10 @@ text-decoration:none;
 }
 
 .image-container{
-    background-color: white;
+    background-color: var(--white);
     border: 3px var(--black);
+    border-radius: 10px;
+    padding: 1em;
 }
 
 .skill {
