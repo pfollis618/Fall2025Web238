@@ -134,6 +134,7 @@ main{
 }
 #web-info {
     margin: auto;
+    border-radius: 40px;
 }
 .media {
     background-color: var(--white);
