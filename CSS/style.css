@@ -251,7 +251,7 @@ main{
     width: 100%;
   padding: 10px 15px;
   /*background: #e5e5e5;*/
-    background: var(--green);
+    background: darkgreen;
   cursor: pointer;
   font-weight: bold;
   font-size: 12px;
