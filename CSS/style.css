@@ -261,7 +261,7 @@ main{
 text-decoration:none;
 }
 .tabs a:link{
-    background: #ddd;
+    /*background: #ddd;*/
     border: 3px green;
 }
 .tabs a:hover{
