@@ -182,7 +182,7 @@ main{
 
 }
 /* button code */
-.button {
+/*.button {
     margin: 2em;
     padding: 1em;
     border: 0;
@@ -197,6 +197,30 @@ main{
     background-color: #47d147;
     transform: translateY(.1em);
     box-shadow: 0 .3em #29a329;
+}*/
+.button {
+    margin: 2em;
+    padding: 1em;
+    border: .5em ridge black;
+    border-radius: 5em;
+    font-size: 1rem;
+    color: #70db70/*white*/;
+    background-color: black;
+    transition-duration: .4s;
+    /*box-shadow: 0 .4em #29a329;
+    text-shadow: 1px 1px #29a329;*/
+}
+.button:hover{
+    /*background-color: #70db70;*/
+    /*background-color: seagreen;*/
+    color: white;
+    background-color: darkgreen/*mediumseagreen*/;
+}
+.button:active{
+    background-color: white;
+    color: black;
+    /*transform: translateY(.1em);
+    box-shadow: 0 .3em #29a329;*/
 }
 .buttonOut {
     margin: 2em;
