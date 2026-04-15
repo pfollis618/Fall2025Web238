@@ -281,7 +281,7 @@ main{
     border:  groove black;
     border-radius: 10px;
     font-weight: bold;
-    color: var(--white)
+    color: var(--black/*white*/)
     
 }
 .tabs h3 {
