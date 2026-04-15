@@ -276,8 +276,9 @@ main{
  /* max-width: 700px; */
     max-width: 100%;
   /*background: #e5e5e5;*/
-    background-color: /*#00cc00*/ var(--green);
+    background-color: /*#00cc00*/ var(--white/*--green*/);
   box-shadow: 0 48px 80px -32px rgba(0,0,0,0.3);
+    border:  groove black;
     border-radius: 10px;
     font-weight: bold;
     color: var(--white)
@@ -299,7 +300,7 @@ main{
     width: 100%;
   padding: 10px 15px;
   /*background: #e5e5e5;*/
-    background: darkgreen;
+    background: var(--white)/*darkgreen*/;
     border-radius: 3pt;
   cursor: pointer;
   font-weight: bold;
@@ -315,12 +316,13 @@ text-decoration:none;
 }
 .tabs a:hover{
     /*background: #d8d8d8;*/
-    background: var(--white);
-    color: var(--black);
+    background: var(--green/*--white*/);
+    color: var(--white/*black*/);
     border: 3px blue;
 }
 .tabs a:active{
     background: #ccc;
+    color: var(--black);
     border: 3px red;
 }
 .tabs iframe {
