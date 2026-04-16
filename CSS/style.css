@@ -210,7 +210,7 @@ main{
 }
 .button:hover{
     color: white;
-    background-color: darkgreen;
+    background-color: var(--green)/*darkgreen*/;
 }
 .button:active{
     background-color: white;
