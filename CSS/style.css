@@ -278,7 +278,7 @@ main{
   /*background: #e5e5e5;*/
     background-color: /*#00cc00*/ var(--white/*--green*/);
   box-shadow: 0 48px 80px -32px rgba(0,0,0,0.3);
-    border:  groove black;
+    border: 3em groove black;
     border-radius: 10px;
     font-weight: bold;
     color: var(--black/*white*/)
@@ -302,7 +302,7 @@ main{
   /*background: #e5e5e5;*/
     background: var(--white)/*darkgreen*/;
     border-radius: 3pt;
-    border:  groove black;
+    border: 2em double black;
   cursor: pointer;
   font-weight: bold;
   font-size: 12px;
