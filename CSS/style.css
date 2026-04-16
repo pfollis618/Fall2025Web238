@@ -201,7 +201,7 @@ main{
 .button {
     margin: 2em;
     padding: 1em;
-    border: .5em /*ridge*/ black;
+    border: .5em /*ridge*/double black;
     border-radius: 5em;
     font-size: 1rem;
     color: #70db70;
