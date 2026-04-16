@@ -235,7 +235,7 @@ main{
 .buttonOut {
     margin: 2em;
     padding: 1em;
-    border: .5em /*ridge*/ black;
+    border: .5em /*ridge*/double black;
     border-radius: 5em;
     font-size: 1rem;
     color: #ff4d4d;
@@ -291,6 +291,7 @@ main{
     display: flex;   
     font-weight: bold;
     list-style-type: none;
+    border: 3em double black;
     border-radius: 15px;
 }
 #tab-nav ul{
