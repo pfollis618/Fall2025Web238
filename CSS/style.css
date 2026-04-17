@@ -303,14 +303,14 @@ main{
 }
 .tabs a{
     width: 100%;
-  padding: 10px 15px;
+  padding: 2em 3em/*10px 15px*/;
   /*background: #e5e5e5;*/
     background: var(--white)/*darkgreen*/;
     border-radius: 3pt;
     border: 3em double black;
   cursor: pointer;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 2em/*12px*/;
   /*color: #7f7f7f;*/
     color: var(--black);
   transition: background 0.1s, color 0.1s;
