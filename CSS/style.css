@@ -333,7 +333,7 @@ main{
     width: 25%;
   padding: 1em 1.5em/*10px 15px*/;
   /*background: #e5e5e5;*/
-    background: var(--white)/*darkgreen*/;
+    background: #ccc/*var(--white)darkgreen*/;
         border: 3em solid green;
     border-radius: 3pt;
 
@@ -356,7 +356,7 @@ text-decoration:none;
     border: 3px blue;
 }
 .tabs a:active{
-    background: #ccc;
+    background: var(--white)/*#ccc*/;
     color: var(--black);
     border: 3px red;
 }
