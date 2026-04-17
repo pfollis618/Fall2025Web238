@@ -299,7 +299,7 @@ main{
     border: 3em double black;
 }
 #tab-nav li{
-    border: 3em double black;
+    border: 1em double black;
 }
 .tabs a{
     width: 25%;
