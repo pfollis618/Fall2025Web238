@@ -296,10 +296,6 @@ main{
 }
 #tab-nav ul{
     list-style-type: none;
-    
-}
-#tab-nav li{
-    border: 1em double black;
 }
 .tabs a{
     width: 25%;
