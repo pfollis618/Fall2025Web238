@@ -42,19 +42,19 @@ nav a
     text-decoration:none;
     padding-right: 10px;   
     }
-a:link
+nav a:link
     {
     color: var(--link);    
     }
-a:visited
+nav a:visited
     {
     color: var(--visited);    
     }
-a:hover
+nav a:hover
     {
     color: var(--highlight);    
     }
-a:active
+nav a:active
     {
     color: var(--white);   
     }
@@ -127,6 +127,22 @@ main{
     margin-top: auto;
     margin-bottom: auto;*/
 }
+.website a:link
+    {
+    color: var(--link);    
+    }
+.website a:visited
+    {
+    color: var(--link);    
+    }
+.website a:hover
+    {
+    color: var(--highlight);    
+    }
+.website a:active
+    {
+    color: var(--white);   
+    }
 .websites img {
     max-width: 90%;
     border: solid black;
