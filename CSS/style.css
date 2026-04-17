@@ -296,7 +296,7 @@ main{
 }
 #tab-nav ul{
     list-style-type: none;
-    border: 3em double black;
+    
 }
 #tab-nav li{
     border: 1em double black;
