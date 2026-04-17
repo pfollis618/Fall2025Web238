@@ -303,7 +303,7 @@ main{
 }
 .tabs a{
     width: 25%;
-  padding: 2em 3em/*10px 15px*/;
+  padding: 1em 1.5em/*10px 15px*/;
   /*background: #e5e5e5;*/
     background: var(--white)/*darkgreen*/;
         border: 3em solid green;
@@ -461,6 +461,10 @@ text-decoration:none;
     }
     #tabs{
         border: 2em groove black;
+    }
+    .tabs a{
+        padding: 2em 3em;
+        font-size: 2em;
     }
     #footer {
         margin: 3em;
