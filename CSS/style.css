@@ -302,7 +302,7 @@ main{
     border: 3em double black;
 }
 .tabs a{
-    width: 100%;
+    width: 25%;
   padding: 2em 3em/*10px 15px*/;
   /*background: #e5e5e5;*/
     background: var(--white)/*darkgreen*/;
