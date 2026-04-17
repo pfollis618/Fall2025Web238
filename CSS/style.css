@@ -306,8 +306,9 @@ main{
   padding: 2em 3em/*10px 15px*/;
   /*background: #e5e5e5;*/
     background: var(--white)/*darkgreen*/;
+        border: 3em solid green;
     border-radius: 3pt;
-    border: 3em double black;
+
   cursor: pointer;
   font-weight: bold;
   font-size: 2em/*12px*/;
