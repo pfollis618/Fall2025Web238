@@ -83,6 +83,22 @@ main{
 .bio a{
     text-decoration:none;
 }
+.bio a:link
+    {
+    color: var(--link);    
+    }
+.bio a:visited
+    {
+    color: var(--green);    
+    }
+.bio a:hover
+    {
+    color: var(--visited);    
+    }
+.bio a:active
+    {
+    color: var(--white);   
+    }
 
 .project {
     background-color: var(--green);
