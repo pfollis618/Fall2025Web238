@@ -185,7 +185,7 @@ main{
     color: var(--black);
     max-width: 85%;
     text-align: center;
-    border: .2em groove black;
+    border: .5em groove black;
     border-radius: 15px;
     padding-top: 2em;
     padding-bottom: 2em;
