@@ -65,7 +65,7 @@ h1{
 h2{
     font-size: 1.2em;
     text-align: center;
-    text-shadow: -1px -1px 0 var(--white), 1px -1px 0 var(--white),1px 1px 0 var(--white);
+    text-shadow: -2px -2px 0 var(--white), 2px -2px 0 var(--white), 2px 2px 0 var(--white);
 }
 main{
     margin-top: 120px;
