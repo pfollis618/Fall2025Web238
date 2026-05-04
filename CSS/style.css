@@ -190,9 +190,14 @@ main{
     padding-top: 2em;
     padding-bottom: 2em;
     margin-top: 1em;
-    margin-bottom: 3em;
     margin-left: auto;
     margin-right: auto;
+}
+#video-media{
+    margin-bottom: 3em;
+}
+#image-media{
+    margin-bottom: 1em;
 }
 #video {
     margin-bottom: 1em;
