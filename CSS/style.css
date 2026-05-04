@@ -63,6 +63,7 @@ h1{
     text-align: center;
 }
 h2{
+    font-size: 1.2em;
     text-align: center;
     text-shadow: -1px -1px 0 var(--white), 1px -1px 0 var(--white),1px 1px 0 var(--white);
 }
@@ -403,6 +404,9 @@ text-decoration:none;
 }
 @media (min-width:45em) {
     h1{
+        font-size: 2em;
+    }
+    h2{
         font-size: 2em;
     }
     nav
