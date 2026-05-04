@@ -180,6 +180,18 @@ main{
     margin-left: auto;
     margin-right: auto;
 }
+.media-text {
+    background-color: var(--green);
+    color: var(--white);
+    max-width: 85%;
+    text-align: center;
+    border: groove black;
+    border-radius: 15px;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-top: 1em;
+    margin-bottom: 3em;
+}
 #video {
     margin-bottom: 1em;
 }
@@ -415,6 +427,9 @@ text-decoration:none;
         max-width: 30%;
         padding-left: 1em;
     }
+    .media-text { 
+        max-width: 75%;
+    }
     .websites img {
         max-width: 30%; /* was 25% */
     }
@@ -473,6 +488,9 @@ text-decoration:none;
     }
     img {
         max-width: 90%;
+    }
+    .media-text { 
+        max-width: 65%;
     }
     .media-grid {
         display: grid;
