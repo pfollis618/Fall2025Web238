@@ -185,7 +185,7 @@ main{
     color: var(--black);
     max-width: 85%;
     text-align: center;
-    border: .5em groove black;
+    border: .5em solid black;
     border-radius: 15px;
     padding-top: 2em;
     padding-bottom: 2em;
@@ -197,7 +197,7 @@ main{
     margin-bottom: 3em;
 }
 #image-media{
-    margin-bottom: 1em;
+    margin-bottom: .5em;
 }
 #video {
     margin-bottom: 1em;
