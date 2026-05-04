@@ -382,6 +382,9 @@ text-decoration:none;
     margin: 1em;
 }
 @media (min-width:45em) {
+    h1{
+        font-size: 2em;
+    }
     nav
         {
         padding: 1em;   
