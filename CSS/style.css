@@ -82,6 +82,7 @@ main{
 }
 .bio a{
     text-decoration:none;
+    font-weight: bold;
 }
 .bio a:link
     {
