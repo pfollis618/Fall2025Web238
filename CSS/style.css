@@ -253,7 +253,10 @@ main{
     box-shadow: 0 .3em #29a329;
 }*/
 .button {
-    margin: 2em;
+    margin-top: 1em;
+    margin-right: 2em;
+    margin-left: 2em;
+    margin-bottom: 2em;
     padding: 1em;
     border: .5em /*ridge*/double black;
     border-radius: 5em;
