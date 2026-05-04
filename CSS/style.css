@@ -118,7 +118,7 @@ main{
 .websites {
     background-color: var(--white);
     color: var(--black);
-    max-width: 42%;
+    max-width: 85%;
     text-align: center;
     border: groove black;
     border-radius: 10px;
