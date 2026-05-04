@@ -150,7 +150,7 @@ main{
     }
 .website a:visited
     {
-    color: var(--link);    
+    color: var(--highlight);    
     }
 .website a:hover
     {
