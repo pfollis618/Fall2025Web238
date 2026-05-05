@@ -48,15 +48,15 @@ nav a:link
     }
 nav a:visited
     {
-    color: var(--visited);    
+    color: var(--highlight/*--visited*/);    
     }
 nav a:hover
     {
-    color: var(--highlight);    
+    color: var(--white/*--highlight*/);    
     }
 nav a:active
     {
-    color: var(--white);   
+    color: var(--visited/*--white*/);   
     }
 /* Main */
 h1{
