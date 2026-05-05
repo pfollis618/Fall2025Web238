@@ -499,6 +499,7 @@ text-decoration:none;
     }
     #footer {
         margin: 2em;
+        padding: 3em;
     }
 }
 @media (min-width:65em) {
