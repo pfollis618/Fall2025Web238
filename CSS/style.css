@@ -298,7 +298,8 @@ main{
     padding: 1em;
     border: .5em /*ridge*/double black;
     border-radius: 5em;
-    font-size: 1rem;
+    font-size: .7rem;
+    font-weight: bold;
     color: #ff4d4d;
     background-color: black;
     transition-duration: .4s;
@@ -457,6 +458,9 @@ text-decoration:none;
         margin: 1em;
     }
     .button{
+        font-size: 1rem; 
+    }
+    .buttonOut{
         font-size: 1rem; 
     }
     .skill-grid {
