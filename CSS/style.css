@@ -414,6 +414,9 @@ text-decoration:none;
     border-radius: 20px;
     font-weight: bold;
 }
+#footer p{
+    font-size: 2em;
+}
 @media (min-width:45em) {
     h1{
         font-size: 2em;
@@ -500,7 +503,9 @@ text-decoration:none;
     }
     #footer {
         margin: 2em;
-        padding: 3em;
+        padding-right: 3em;
+        padding-left: 3em;
+        padding-bottom: 3em;
     }
 }
 @media (min-width:65em) {
