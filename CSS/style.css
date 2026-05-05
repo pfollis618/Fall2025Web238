@@ -183,7 +183,7 @@ main{
     margin-right: auto;
 }
 .media-text {
-    background-color: var(--highlight);
+    background-color: var(--link/*--highlight*/);
     color: var(--black);
     max-width: 85%;
     text-align: center;
