@@ -147,6 +147,7 @@ main{
 .websites a {
     text-decoration:none;
     font-weight: bold;
+    text-shadow: -1px -1px 0 var(--black), 1px -1px 0 var(--black), 1px 1px 0 var(--black), -1px 1px 0 var(--black);
     /* text-align: center;
     margin-top: auto;
     margin-bottom: auto;*/
