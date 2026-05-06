@@ -37,20 +37,20 @@ nav li
   
     border-bottom: 1px solid black;
     }
-nav a
+/*nav*/ a
     {
     text-decoration:none;
     padding-right: 10px;   
     }
-nav a:link
+/*nav*/ a:link
     {
     color: var(--link);    
     }
-nav a:visited
+/*nav*/ a:visited
     {
     color: var(--highlight/*--visited*/);    
     }
-nav a:hover
+/*nav*/ a:hover
     {
     color: var(--white/*--highlight*/);    
     }
