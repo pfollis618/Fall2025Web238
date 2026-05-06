@@ -517,6 +517,12 @@ text-decoration:none;
     }
 }
 @media (min-width:65em) {
+    h1 {
+        font-size: 3em;
+    }
+    h2{
+        fontsize: 2.5em;
+    }
     .bio {
         margin-right: 15em;
         margin-left: 15em;
