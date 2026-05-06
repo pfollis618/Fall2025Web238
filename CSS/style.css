@@ -148,6 +148,7 @@ main{
     text-decoration:none;
     font-weight: bold;
     text-shadow: -1px -1px 0 var(--black), 1px -1px 0 var(--black), 1px 1px 0 var(--black), -1px 1px 0 var(--black);
+    font-size: 1.2em;
     /* text-align: center;
     margin-top: auto;
     margin-bottom: auto;*/
