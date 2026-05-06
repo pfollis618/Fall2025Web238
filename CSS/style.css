@@ -371,7 +371,7 @@ main{
     list-style-type: none;
 }
 #tab-nav li {
-    border: 2em double black;
+    border: 2em solid var(--green);
 }
 .tabs a{
     width: 25%;
