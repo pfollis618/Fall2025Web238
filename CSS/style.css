@@ -449,6 +449,9 @@ text-decoration:none;
     main {
         margin-top: 80px;
     }
+    .bio p {
+        font-size: 16pt;
+    }
     .project {
         padding: 2px;
         padding-top: 3em;
