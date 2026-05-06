@@ -82,6 +82,7 @@ main{
     text-align: center;
     border: groove black;
     border-radius: 35px;
+    font-size: 19pt; 
 }
 .bio a{
     text-decoration:none;
