@@ -582,7 +582,7 @@ text-decoration:none;
         font-size: 2em;
     }
      #tab-nav li {
-    border: 4em solid var(--green);
+    border: 4em solid var(--link);
     border-radius: 25pt;
 }
     #footer {
