@@ -384,7 +384,7 @@ main{
 
   cursor: pointer;
   font-weight: bold;
-  font-size: 1.5em/*12px*/;
+  font-size: 1.1em/*12px*/;
   /*color: #7f7f7f;*/
     color: var(--black);
   transition: background 0.1s, color 0.1s;
@@ -487,6 +487,9 @@ text-decoration:none;
     .buttonOut{
         font-size: 1rem; 
     }
+    .tabs a{
+        font-size: 1.5em;
+    }
     .skill-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -573,7 +576,7 @@ text-decoration:none;
     }
     .tabs a{
         padding: 2em 3em;
-        font-size: 2em;
+        font-size: 2.4em;
     }
     #footer {
         margin: 3em;
