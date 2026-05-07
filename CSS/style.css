@@ -93,7 +93,7 @@ main{
 .bio a{
     text-decoration:none;
     font-weight: bold;
-}
+} /*
 .bio a:link
     {
     color: var(--link);    
@@ -109,7 +109,7 @@ main{
 .bio a:active
     {
     color: var(--white);   
-    }
+    }*/
 
 .project {
     background-color: var(--green);
