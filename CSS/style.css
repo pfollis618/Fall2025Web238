@@ -598,6 +598,7 @@ text-decoration:none;
         border: 2em groove black;
     }
     .tabs a{
+        margin-top: 2em;
         padding: 2em 3em;
         font-size: 1.3em;
     }
