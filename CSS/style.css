@@ -37,7 +37,7 @@ nav li
   
     border-bottom: 1px solid black;
     }
-/*nav*/ a
+nav a
     {
     text-decoration:none;
     padding-right: 10px;   
@@ -57,10 +57,13 @@ a{
     {
     color: var(--white/*--highlight*/);    
     }
-nav a:active
+/*nav*/ a:active
     {
     color: var(--visited/*--white*/);   
     }
+.nav-contact{
+    max-height: 100%;
+}
 /* Main */
 h1{
     text-align: center;
