@@ -594,7 +594,7 @@ text-decoration:none;
     .container {
         gap: 20px;
     }
-    .media-text{
+    #image-media{
         top-padding: 1em;
     }
     #tabs{
