@@ -365,7 +365,7 @@ main{
     border: 1em groove black;
     border-radius: 20px;
     font-weight: bold;
-    color: var(--black--white*/)
+    color: var(--black/*--white*/)
     
 }
 .tabs h3 {
