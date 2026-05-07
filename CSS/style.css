@@ -457,6 +457,7 @@ text-decoration:none;
     nav
         {
         padding: 1em;   
+        max-height: 8%;
         }
     nav ul 
         {
