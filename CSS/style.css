@@ -379,7 +379,7 @@ main{
     width: 25%;
   padding: 1em 1em/*10px 15px*/;
   /*background: #e5e5e5;*/
-    background: #ccc/*var(--white)darkgreen*/;
+    background: /*#ccc*/var(--white)/*darkgreen*/;
         border: 3em solid red;
     border-radius: 3pt;
 
@@ -398,11 +398,11 @@ text-decoration:none;
 .tabs a:hover{
     /*background: #d8d8d8;*/
     background: var(--green/*--white*/);
-    color: var(--white/*black*/);
+    color: var(--white/*--black*/);
     border: 3px blue;
 }
 .tabs a:active{
-    background: var(--white)/*#ccc*/;
+    background: /*var(--white)*/#ccc;
     color: var(--black);
     border: 3px red;
 }
@@ -579,10 +579,10 @@ text-decoration:none;
     }
     .tabs a{
         padding: 2em 3em;
-        font-size: 2em;
+        font-size: 1.75em;
     }
      #tab-nav li {
-    border: 4em solid var(--black);
+    border: 3.5em solid var(--black);
     border-radius: 25pt;
 }
     #footer {
