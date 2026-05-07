@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+       <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-S61YQRCXNL"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-S61YQRCXNL');
+        </script>-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patrick Follis' Portfolio</title>
+    <meta name="author" content="pf">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body class="green-background">
+    <header>
+    <nav>
+        <ul>
+            <li class="nav-contact" id="linkedin"><a href="https://linkedin.com/in/patrick-e-follis/"><img src="Assets/LinkedIn.jpg"></a></li>
+            <li class="nav-contact" id="email"><a href="mailto:pfollis618@gmail.com"><img src="Assets/Email.jpg"></a></li>
+            <li><a href="https://pfollis618.github.io/Fall2025Web238/Portfolio.html#Projects">Projects</a></li>
+            <li><a href="https://pfollis618.github.io/Fall2025Web238/Portfolio.html#Media">Media</a></li>
+            <li><a href="https://pfollis618.github.io/Fall2025Web238/Portfolio.html#Skills">Skills</a></li>
+            <li><a href="#footer">Contact Form</a></li>
+        </ul>
+    </nav>
+    </header>
+    <div class="form-style">
+        <h2>Contact Form</h2>
+        <p>*The stared fields are required.</p>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="a0ecc7e9-5cee-4f7a-9b14-2cc24529d98b">
+            <label for="name">*First and Last Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name..." required>
+            <label for="email">*Put Your Email Here</label>
+                <input type="email" id="email" name="email" required>
+            <p>*Message</p>
+            <textarea for="message" placeholder="Place your message here..." required></textarea>
+            <label for="planet">Favorite Planet</label>
+                <input type="text" id="planet" name="planet">
+
+
+            <div class="button-form">
+
+                <input type="submit" value="Submit">
+                <input type="reset" value="Clear Form">
+            </div>
+            </form>
+    </div>
+</body>
+</html>
