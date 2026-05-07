@@ -372,14 +372,14 @@ main{
     list-style-type: none;
 }
 #tab-nav li {
-    border: 2em solid var(--green);
+    border: 1em solid var(--green);
 }
 .tabs a{
     width: 25%;
   padding: 1em 1.5em/*10px 15px*/;
   /*background: #e5e5e5;*/
     background: #ccc/*var(--white)darkgreen*/;
-        border: 3em solid green;
+        border: 3em solid red;
     border-radius: 3pt;
 
   cursor: pointer;
@@ -392,7 +392,7 @@ text-decoration:none;
 }
 .tabs a:link{
     /*background: #ddd;*/
-    border: 3px green;
+    border: 3em var(--black);
 }
 .tabs a:hover{
     /*background: #d8d8d8;*/
