@@ -467,6 +467,7 @@ text-decoration:none;
         } 
     .nav-contact {
         display: inherit;
+        max-width: 18%;
     }
     main {
         margin-top: 80px;
