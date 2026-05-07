@@ -448,10 +448,78 @@ text-decoration:none;
 #footer p{
     font-size: 1.2em;
 }
+
+/*Form CSS Here - Also some in other window sizes to grab*/
+.green-background {
+    background-color: var(--green);
+}
+.form-style {
+    background-color: var(--white);
+    border: 1em groove black;
+    border-radius: 20px;
+    padding: 2em;
+    margin-top: 5em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+form {   
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+input[type=text], select, input[type=date], input[type=checkbox], input[type=radio], textarea, input[type=email] {
+    margin-bottom: 2em;
+    padding: 1em;
+}
+input[type=submit] {
+    margin-top: 1em;
+    margin-right: 2em;
+    margin-left: 2em;
+    margin-bottom: 2em;
+    padding: 1em;
+    border: .5em /*ridge*/double black;
+    border-radius: 5em;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #70db70;
+    background-color: black;
+    transition-duration: .4s;
+}
+input[type=submit]:hover{
+    color: white;
+    background-color: var(--green)
+}
+input[type=submit]:active{
+    background-color: white;
+    color: black;
+}
+input[type=reset] {
+    margin: 2em;
+    padding: 1em;
+    border: .5em /*ridge*/double black;
+    border-radius: 5em;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ff4d4d;
+    background-color: black;
+    transition-duration: .4s;
+}
+input[type=reset]:hover {
+    color: white;
+    background-color: #b30000;
+}
+input[type=reset]:active {
+    background-color: white;
+    color: black;
+}
+input[type=submit], input[type=reset]{
+    min-width: 20%;
+}
+
 @media(max-width:45em){
 .nav-contact{
     display: none;
-}
+    }
 }
 @media (min-width:45em) {
     h1{
@@ -556,6 +624,12 @@ text-decoration:none;
         padding-right: 3em;
         padding-left: 3em;
         padding-bottom: 3em;
+    }
+
+    /*Form CSS Here*/
+    .button-form {
+        display: flex;
+        justify-content: space-around;
     }
 }
 @media (min-width:65em) {
