@@ -64,7 +64,6 @@ a{
 .nav-contact{
     /*max-height: 10pt;*/
     max-width: 18%;
-    display: none;
 }
 /* Main */
 h1{
@@ -440,6 +439,11 @@ text-decoration:none;
 }
 #footer p{
     font-size: 1.2em;
+}
+@media(max-width:45em){
+.nav-contact{
+    display: none;
+}
 }
 @media (min-width:45em) {
     h1{
