@@ -376,7 +376,7 @@ main{
 }
 .tabs a{
     width: 25%;
-  padding: 1em 1.5em/*10px 15px*/;
+  padding: 1em 1em/*10px 15px*/;
   /*background: #e5e5e5;*/
     background: #ccc/*var(--white)darkgreen*/;
         border: 3em solid red;
@@ -518,7 +518,7 @@ text-decoration:none;
     /* tabs */
     #tabs a {
         width: auto;
-        padding: 20px 30px;
+        padding: 1.5em 2em;
         font-size: 18px;
     }
     #footer {
