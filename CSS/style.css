@@ -595,8 +595,8 @@ text-decoration:none;
         gap: 20px;
     }
     #image-media{
-        top-padding: 3em;
-        top-margin: 1em;
+        padding-top: 1em;
+        margin-top: 1em;
     }
     #tabs{
         border: 2em groove black;
