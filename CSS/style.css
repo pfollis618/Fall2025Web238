@@ -42,6 +42,9 @@ nav li
     text-decoration:none;
     padding-right: 10px;   
     }
+a{
+     text-shadow: -1px -1px 0 var(--black), 1px -1px 0 var(--black), 1px 1px 0 var(--black), -1px 1px 0 var(--black);
+}
 /*nav*/ a:link
     {
     color: var(--link);    
@@ -153,6 +156,7 @@ main{
     margin-top: auto;
     margin-bottom: auto;*/
 }
+/*
 .website a:link
     {
     color: var(--link);    
@@ -168,7 +172,7 @@ main{
 .website a:active
     {
     color: var(--white);   
-    }
+    }*/
 .websites img {
     max-width: 90%;
     border: solid black;
