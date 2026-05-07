@@ -62,8 +62,8 @@ a{
     color: var(--visited/*--white*/);   
     }
 .nav-contact{
-    max-height: 100%;
-    max-width: 5%;
+    /*max-height: 10pt;*/
+    max-width: 20%;
 }
 /* Main */
 h1{
