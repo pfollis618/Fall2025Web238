@@ -373,6 +373,7 @@ main{
 }
 #tab-nav li {
     border: 1.35em solid var(--green);
+    border-radius: 5pt;
 }
 .tabs a{
     width: 25%;
@@ -521,6 +522,7 @@ text-decoration:none;
     }
     #tab-nav li {
     border: 1em solid var(--green);
+    border-radius: 15pt;
 }
     #footer {
         margin: 2em;
@@ -581,6 +583,7 @@ text-decoration:none;
     }
      #tab-nav li {
     border: 4em solid var(--green);
+    border-radius: 25pt;
 }
     #footer {
         margin: 3em;
