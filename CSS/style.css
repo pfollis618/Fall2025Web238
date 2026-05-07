@@ -34,9 +34,11 @@ nav ul
     }
 nav li
     {
-  
     border-bottom: 1px solid black;
     }
+nav img {
+    max-width: 18%
+}
 nav a
     {
     text-decoration:none;
