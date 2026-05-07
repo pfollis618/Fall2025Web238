@@ -579,6 +579,9 @@ text-decoration:none;
         padding: 2em 3em;
         font-size: 2em;
     }
+     #tab-nav li {
+    border: 4em solid var(--green);
+}
     #footer {
         margin: 3em;
     }
