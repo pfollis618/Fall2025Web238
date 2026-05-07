@@ -372,7 +372,7 @@ main{
     list-style-type: none;
 }
 #tab-nav li {
-    border: 1em solid var(--green);
+    border: 1.3em solid var(--green);
 }
 .tabs a{
     width: 25%;
