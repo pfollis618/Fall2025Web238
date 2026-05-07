@@ -63,9 +63,15 @@ a{
     {
     color: var(--visited/*--white*/);   
     }
-.nav-contact{
+/*.nav-contact{
     /*max-height: 10pt;*/
     max-width: 18%;
+}*/
+#email {
+    max-width: 18%;
+}
+#linkedin {
+    max-width: 36%;
 }
 /* Main */
 h1{
@@ -475,7 +481,7 @@ text-decoration:none;
         } 
     .nav-contact {
         display: inherit;
-        max-width: 18%;
+        /*max-width: 18%;*/
     }
     main {
         margin-top: 80px;
