@@ -419,7 +419,7 @@ text-decoration:none;
 }
 .tabs a:active{
     background-color: var(--visited);
-    color: var(--black);
+    color: var(--white);
     border: 3px red;
 }
 .tabs iframe {
