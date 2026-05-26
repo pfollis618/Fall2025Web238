@@ -540,7 +540,7 @@ input[type=submit], input[type=reset]{
         flex-wrap: nowrap;
         justify-content: center;
         list-style-type: none;
-        margin-right: 20em;
+        /*margin-right: 20em;*/
         }
 
     nav li 
