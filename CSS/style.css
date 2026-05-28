@@ -521,6 +521,9 @@ input[type=submit], input[type=reset]{
     display: none;
     }
 }
+#final{
+    border: 4px solid #33cc33;
+}
 @media (min-width:45em) {
     h1{
         font-size: 2.5em;
