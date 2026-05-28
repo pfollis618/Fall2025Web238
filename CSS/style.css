@@ -547,7 +547,7 @@ input[type=submit], input[type=reset]{
         /*margin-right: 20em;*/
         }
     #final {
-        padding: auto;
+        padding-left: .2em;
     }
 
     nav li 
