@@ -540,6 +540,7 @@ input[type=submit], input[type=reset]{
         flex-wrap: nowrap;
         justify-content: center;
         list-style-type: none;
+        align-items: center;
         /*margin-right: 20em;*/
         }
 
