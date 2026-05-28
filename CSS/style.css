@@ -48,6 +48,7 @@ a{
     text-shadow: -1px -1px 0 var(--black), 1px -1px 0 var(--black), 1px 1px 0 var(--black), -1px 1px 0 var(--black);
     background-color: var(--black);
     border-radius: 35px;
+    padding: 0em .3em 0em .3em;
 }
 /*nav*/ a:link
     {
