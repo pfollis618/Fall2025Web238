@@ -45,7 +45,9 @@ nav a
     padding-right: 10px;   
     }
 a{
-     text-shadow: -1px -1px 0 var(--black), 1px -1px 0 var(--black), 1px 1px 0 var(--black), -1px 1px 0 var(--black);
+    text-shadow: -1px -1px 0 var(--black), 1px -1px 0 var(--black), 1px 1px 0 var(--black), -1px 1px 0 var(--black);
+    background-color: var(--black);
+    border-radius: 35px;
 }
 /*nav*/ a:link
     {
